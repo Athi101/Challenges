@@ -2,28 +2,28 @@ import java.io.*;
 import java.util.*;
 
 public class Day4 {
-    private int age;	
+    private int a;	
   
 	public Day4(int initialAge) {
         // Add some more code to run some checks on initialAge
         if(initialAge<0){
             System.out.println("Age is not valid, setting age to 0.");
-                age = 0;
+                a = 0;
         }
         
         else{
-            age = initialAge;
+            a = initialAge;
         }
   		
 	}
 
 	public void amIOld() {
   		// Write code determining if this person's age is old and print the correct statement:
-        if(age<13){
+        if(a<13){
             System.out.println("You are young.");
         }
         
-        else if(age>=13 && age<18 ){
+        else if(a>=13 && a<=19 ){
             System.out.println("You are a teenager.");
         }
         else{
@@ -33,7 +33,7 @@ public class Day4 {
 
 	public void yearPasses() {
   		// Increment this person's age.
-        age = age + 1;
+        a = a + 1;
     }
 
     public static void main(String[] args) {
