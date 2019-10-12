@@ -4,9 +4,9 @@ public class AntonAndDanik{
 
     public static void main(String[] args) {
         
-        Scanner s = new Scanner(System.in);
-        int t = s.nextInt();
-        String S = s.next();
+        Scanner ss = new Scanner(System.in);
+        int t = ss.nextInt();
+        String S = ss.next();
 
         int i = 0, a = 0 , d = 0;
         while(i<t){
@@ -31,6 +31,6 @@ public class AntonAndDanik{
             System.out.println("Friendship");
         }
         
-        s.close();
+        ss.close();
     }
 }
