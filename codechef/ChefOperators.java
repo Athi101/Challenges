@@ -6,11 +6,11 @@ public class ChefOperators{
     public static void main(String[] args) {
 
         int T;
-        Scanner sc = new Scanner(System.in) ;
-        T= sc.nextInt();
+        Scanner s = new Scanner(System.in) ;
+        T= s.nextInt();
         while (T>0){
-            int A = sc.nextInt();
-            int B = sc.nextInt();
+            int A = s.nextInt();
+            int B = s.nextInt();
             if (A>B){
                 System.out.println(">");
             }
