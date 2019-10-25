@@ -3,11 +3,11 @@ import java.util.Scanner;
 public  class LongWords{
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
         String [] arr = new String[n];
         for(int i = 0 ; i<n ; i++){
-            arr[i] = sc.next();
+            arr[i] = s.next();
         }
         for(int i = 0 ; i<n ; i++){
             int a = arr[i].length();
@@ -22,7 +22,7 @@ public  class LongWords{
             }
 
         }
-        sc.close();
+        s.close();
 
     }
 }
