@@ -4,9 +4,9 @@ public class Hulk{
 
     public static void main(String[] args) {
         
-        Scanner s = new Scanner(System.in);
-        int m = s.nextInt();
-        s.close();
+        Scanner sc = new Scanner(System.in);
+        int m = sc.nextInt();
+        sc.close();
         int k = 1;
         while(k<=m){
             if(k%2==0){
